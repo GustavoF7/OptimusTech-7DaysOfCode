@@ -1,0 +1,127 @@
+.vagas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vagas__talentos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vagas__subheading {
+    color: #8E2424;
+    text-align: center;
+
+    /* Text sm/Medium */
+    font-size: 14px;
+
+    font-weight: 500;
+    line-height: 20px;
+    border-radius: 16px;
+    background: rgba(142, 36, 36, 0.05);
+    padding: 4px 12px;
+}
+
+.vagas__heading {
+    color: var(--gray-900, #101828);
+    text-align: center;
+
+    /* Display md/Semibold */
+    font-size: 36px;
+
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: -0.72px;
+    padding: 20px 0;
+}
+
+.vagas__text {
+    color: var(--gray-500, #667085);
+    text-align: center;
+
+    /* Text xl/Normal */
+    font-size: 20px;
+
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 64px;
+}
+
+.vagas__img {
+    width: 100vw;
+    flex-shrink: 0;
+    padding-bottom: 64px;
+}
+
+
+
+.vagas-abertas-titulo {
+    color: var(--gray-900, #101828);
+
+    /* Text xl/Medium */
+    font-size: 20px;
+
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.vagas__container {
+    display: flex;
+    padding: 24px 24px 28px 24px;
+    flex-direction: column;
+    gap: 24px;
+    align-self: stretch;
+
+    border-radius: 16px;
+    border: 1px solid var(--gray-200, #EAECF0);
+    background: var(--base-white, #FFF);
+
+    margin-bottom: 24px;
+}
+
+.vagas__container:last-child {
+    margin-bottom: 64px;
+}
+
+.vagas__container:first-child {
+    margin-top: 32px;
+}
+
+.vagas__design-titulo {
+    color: var(--gray-900, #101828);
+
+    /* Text lg/Medium */
+    font-size: 18px;
+
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.vagas__design-detalhes {
+    display: flex;
+}
+
+.vagas__design-detalhes p {
+    color: var(--gray-500, #667085);
+    font-size: 16px;
+
+    font-weight: 500;
+    line-height: 24px;
+    padding-right: 24px;
+}
+
+.vagas__design-detalhes p:last-child {
+    padding-right: 0px;
+}
+
+@media screen and (min-width: 768px) {
+    .vagas__vagas-abertas {
+        width: 768px;
+    }
+    .vagas__img {
+        width: 1216px;
+        height: 400px;
+    }
+}

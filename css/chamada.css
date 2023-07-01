@@ -1,0 +1,57 @@
+.chamada {
+    height: 407px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    text-align: center;
+    padding-right: 0;
+}
+
+.chamada__subheading {
+    color: #8E2424;
+
+    /* Text md/Semibold */
+    font-size: 16px;
+
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.chamada__heading {
+    color: var(--gray-900, #101828);
+
+    /* Display lg/Semibold */
+    font-size: 48px;
+
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: -0.96px;
+
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.chamada__text {
+    color: var(--gray-500, #667085);
+    text-align: center;
+    width: 100%;
+    max-width: 791px;
+
+    /* Text xl/Normal */
+    font-size: 20px;
+
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 24px;
+}
+
+@media screen and (min-width: 768px) {
+    .chamada {
+        width: 100%;
+        max-width: 1440px;
+    }
+    
+}
