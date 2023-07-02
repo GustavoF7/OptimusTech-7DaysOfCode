@@ -11,15 +11,11 @@ body {
     background: var(--base-white);
     display: flex;
     flex-direction: column;
+    align-items: center;
 
     font-family: Inter;
     font-style: normal;
     
-}
-
-.container {
-    padding-left: 6%;
-    padding-right: 6%;
 }
 
 .header-divisao {
